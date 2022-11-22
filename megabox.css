@@ -44,12 +44,12 @@ header {
   padding-left: 50px;
   font-size: 17px;
 }
-.main_logo {
-}
+/* .main_logo {
+} */
 
-.header_right {
-  /* display: flex; */
-}
+/* .header_right {
+  display: flex;
+} */
 
 .little_menu_right > ul {
   display: flex;
