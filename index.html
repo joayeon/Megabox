@@ -5,53 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/89cb732b4c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./megabox.css" />
     <title>MegaBox</title>
   </head>
 
   <body>
-    <!-- 헤더!!!!? -->
     <header>
-      <div>
-        <div>
-          <ul>
-            <li>VIP LOUNGE</li>
-            <li>멤버십</li>
-            <li>고객센터</li>
-          </ul>
-        </div>
-        <div>
-          <div>
-            <i class="fa-solid fa-bars"></i>
-            <i class="fa-solid fa-magnifying-glass"></i>
+      <div class="header_wrap">
+        <div class="header_left">
+          <div class="little_menu_left">
+            <ul>
+              <li>VIP LOUNGE</li>
+              <li>멤버십</li>
+              <li>고객센터</li>
+            </ul>
           </div>
-          <div>
-            <span>영화</span>
-            <span>예매</span>
-            <span>극장</span>
+          <div class="menu_left">
+            <div class="menu_icon_left">
+              <i class="fa-solid fa-bars"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="menu_txt_left">
+              <span>영화</span>
+              <span>예매</span>
+              <span>극장</span>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- Megabox Logo -->
-      <div>
-        <img src="./megabox_img/logo-white_new2.png" />
-      </div>
-      <div>
-        <div>
-          <ul>
-            <li>로그인</li>
-            <li>회원가입</li>
-            <li>빠른예매</li>
-          </ul>
+        <!-- Megabox Logo -->
+        <div class="main_logo">
+          <img src="./megabox_img/logo-white_new2.png" />
         </div>
-        <div>
-          <div>
-            <span>이벤트</span>
-            <span>스토어</span>
-            <span>혜택</span>
+        <div class="header_right">
+          <div class="little_menu_right">
+            <ul>
+              <li>로그인</li>
+              <li>회원가입</li>
+              <li>빠른예매</li>
+            </ul>
           </div>
-          <div>
-            <i class="fa-solid fa-calendar-days"></i>
-            <i class="fa-regular fa-user"></i>
+          <div class="menu_right">
+            <div class="menu_txt_right">
+              <span>이벤트</span>
+              <span>스토어</span>
+              <span>혜택</span>
+            </div>
+            <div class="menu_icon_right">
+              <i class="fa-solid fa-calendar-days"></i>
+              <i class="fa-regular fa-user"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -60,42 +62,58 @@
     <!-- 메인 -->
     <main>
       <section1>
-        <div>
+        <div class="box_office">
           <span>박스오피스</span>
           <span><a href="https://www.megabox.co.kr/movie">더 많은 영화보기</a></span>
         </div>
 
-        <div>
-          <div>
+        <div class="movie_wrap">
+          <div class="movie">
             <img src="./megabox_img/올빼미.jpg" />
-            <div>
+            <div class="movie_btn">
               <button><i class="fa-regular fa-heart"></i>627</button>
               <button>예매</button>
             </div>
           </div>
-          <div>
+          <div class="movie">
             <img src="./megabox_img/양자경의더모든날모든순간.jpg" />
-            <div>
+            <div class="movie_btn">
               <button><i class="fa-regular fa-heart"></i>289</button>
               <button>예매</button>
             </div>
           </div>
-          <div>
+          <div class="movie">
             <img src="./megabox_img/블랙팬서.jpg" />
-            <div>
+            <div class="movie_btn">
               <button><i class="fa-regular fa-heart"></i>1.8k</button>
               <button>예매</button>
             </div>
           </div>
-          <div>
+          <div class="movie">
             <img src="./megabox_img/동감.jpg" />
-            <div>
-              <button><i class="fa-regular fa-heart"></i>914</button>
-              <button>예매</button>
-            </div>
+            <div class="movie_btn">
+
+        <div class="search_link">
+          <div class="search_bar">
+            <input type="text" placeholder="영화명을 입력해 주세요" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div class="search_info">
+            <img src="./megabox_img/ico-schedule-main.png" alt="" />
+            상영시간표
+          </div>
+          <div class="search_info">
+            <img src="./megabox_img/ico-boxoffice-main.png" alt="" />
+            박스오피스
+          </div>
+          <div class="search_info">
+            <img src="./megabox_img/ico-quick-reserve-main.png" alt="" />
+            빠른 예매
           </div>
         </div>
-
+        <div class="mouse">
+          <img src="./megabox_img/ico-mouse.png" alt="" />
         <div>
           <div>질문</div>
           <div>상영시간표</div>
